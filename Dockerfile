@@ -1,1 +1,1 @@
-FROM gcr.io/google-samples/xtrabackup:1.0
+FROM k8s.gcr.io/hpa-example
