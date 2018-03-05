@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/hpa-example
+FROM gcr.io/google_samples/k8szk:v1
