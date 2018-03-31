@@ -1,1 +1,1 @@
-FROM gcr.io/google-containers/kube-addon-manager:v6.5
+FROM gcr.io/google_containers/pause-amd64:3.0
