@@ -1,1 +1,1 @@
-FROM gcr.io/google_samples/k8szk:v1
+FROM gcr.io/google-containers/kube-addon-manager:v6.5
