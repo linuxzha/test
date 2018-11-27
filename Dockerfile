@@ -1,1 +1,1 @@
-FROM  gcr.io/k8s-minikube/storage-provisioner:v1.8.1
+FROM  gcr.io/kubernetes-helm/tiller:v2.11.0
