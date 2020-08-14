@@ -1,2 +1,2 @@
 FROM  alpine:3.7
-RUN wget https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
+RUN wget http://download.savannah.gnu.org/releases/freetype/freetype-2.5.5.tar.gz
