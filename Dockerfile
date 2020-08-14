@@ -1,1 +1,2 @@
-FROM  gcr.io/kubernetes-helm/tiller:v2.11.0
+FROM  alpine:3.7
+RUN wget https://aomedia.googlesource.com/aom/+archive/master.tar.gz
