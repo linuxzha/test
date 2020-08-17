@@ -1,2 +1,3 @@
 FROM  alpine:3.7
-RUN wget http://download.savannah.gnu.org/releases/freetype/freetype-2.5.5.tar.gz
+RUN wget -O opencv.zip https://github.com/opencv/opencv/archive/4.0.1.zip
+RUN wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.0.1.zip
