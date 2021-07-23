@@ -342,14 +342,13 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 RUN set -ex && \
     mkdir /tmp/opencv && \
     cd /tmp/opencv && \
-    mv /opencv*.zip /tmp/opencv && \
+    #mv /opencv*.zip /tmp/opencv && \
     wget -O opencv.zip https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip && \
     unzip opencv.zip && \
     wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/${OPENCV_VERSION}.zip && \
     unzip opencv_contrib.zip && \
     mkdir /tmp/opencv/opencv-${OPENCV_VERSION}/build && cd /tmp/opencv/opencv-${OPENCV_VERSION}/build && \
     cmake \
-    --clean-first \
     -D PYTHON_EXECUTABLE=/usr/bin/python3 \
     -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
