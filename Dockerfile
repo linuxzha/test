@@ -338,7 +338,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     apk update && \
     apk add --no-cache ${BUILD} ${DEV}
 
-＃COPY ./opencv* /
+#COPY ./opencv* /
 RUN set -ex && \
     mkdir /tmp/opencv && \
     cd /tmp/opencv && \
